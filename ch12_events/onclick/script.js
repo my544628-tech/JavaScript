@@ -1,0 +1,3 @@
+function saySalam() {
+    alert["AsalaamuAlaykum."];
+}

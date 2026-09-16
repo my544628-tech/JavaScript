@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Country Info</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <h2>Country Explorer</h2>
+
+  <select id="countrySelect" onchange="showCountryInfo()">
+    <option value="">-- Select a Country --</option>
+    <option value="somalia">Somalia</option>
+    <option value="kenya">Kenya</option>
+    <option value="egypt">Egypt</option>
+    <option value="japan">Japan</option>
+    <option value="brazil">Brazil</option>
+    <option value="canada">Canada</option>
+  </select>
+
+  <div id="infoBox" class="info-box">
+    <p>Capital: <span id="capital"></span></p>
+    <p>Population: <span id="population"></span></p>
+    <p>Continent: <span id="continent"></span></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
